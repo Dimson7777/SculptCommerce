@@ -1,74 +1,119 @@
-# SculptStore
+# 🛍️ SculptCommerce
 
-## Live Demo
-SculptStore demo URL available in deployment settings.
+A modern e-commerce application with product browsing, cart functionality, and a complete checkout flow.
 
+## 🌐 Live Demo
 
-A simple e-commerce app where users can browse products, add them to cart, and complete a basic checkout flow.
-
-## 🚀 Overview
-
-SculptStore is a minimal online store where users can browse products, add items to cart, and complete a simple checkout flow.
-The goal of this project was to build a realistic, user-friendly shopping experience without overcomplicating the architecture.
-
-## ✨ Features
-
-* Product listing with clean card layout
-* Add to cart / remove from cart
-* Quantity management
-* Persistent cart (stored locally)
-* Automatic total price calculation
-* Simple checkout flow with confirmation
-* Responsive design (mobile-first)
-* Toast notifications and UI feedback
-* Empty states (cart, products)
-
-## 🧠 What I Focused On
-
-Instead of just building a UI, I focused on making the app feel like a real product:
-
-* Improving user flow (browse → cart → checkout)
-* Adding proper state handling for cart logic
-* Providing feedback for every user action
-* Making the interface responsive and usable on mobile
-* Removing generic/template-like UI and keeping it minimal
-
-## 🛠️ Tech Stack
-
-* React
-* TypeScript
-* Tailwind CSS
-* LocalStorage (for cart persistence)
-
-## 📱 UX & Design
-
-* Mobile-first layout
-* Clean spacing and typography
-* Subtle hover and interaction states
-* Simple and intuitive navigation
-
-## 📦 Project Structure
-
-* `components/` – reusable UI components (ProductCard, Cart, etc.)
-* `pages/` – main views (Home, Cart, Checkout)
-* `hooks/` – logic (cart state, helpers)
-
-## 🎯 Key Takeaways
-
-This project helped me practice:
-
-* Managing shared state (cart logic)
-* Structuring a small but complete product flow
-* Building responsive and user-friendly interfaces
-* Turning a simple idea into a polished mini application
-
-
-## Possible Improvements
-- Backend integration for real orders
-- User authentication
-- Order history
-- Payment integration (Stripe)
 
 ---
 
-This project is part of my portfolio and demonstrates my ability to build small, production-style frontend applications with attention to UX and detail.
+## 🧩 Overview
+
+SculptCommerce is a full-stack e-commerce web application built to simulate a real online store experience.
+
+Users can browse products, manage a shopping cart, and go through a complete checkout flow. The focus was on creating a clean, responsive UI and a realistic user journey similar to production-level e-commerce platforms.
+
+---
+
+## ✨ Features
+
+- 🛒 Product catalog and browsing  
+- ➕ Add to cart / remove from cart  
+- 💳 Checkout flow (demo payments)  
+- 👤 User authentication  
+- 📦 Order-style flow simulation  
+- 📱 Fully responsive design  
+- ⚡ Fast and smooth user experience  
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React + Vite  
+- 🎨 Tailwind CSS  
+- 🗄 Supabase (Auth + Database)  
+- 💳 Stripe (demo integration)  
+- ▲ Vercel (Deployment)  
+
+---
+
+## 🎯 Product Focus
+
+This project was built to replicate a real-world e-commerce product:
+
+- 🛍️ Complete shopping flow  
+- 🔐 Authentication and user state management  
+- 💰 Checkout experience simulation  
+- 📱 Mobile-first responsive UI  
+
+The goal was to create something that feels like a production-ready product, not just a demo.
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Dimson7777/SculptCommerce.git
+cd SculptCommerce
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_key
+```
+
+---
+
+## 🚢 Deployment
+
+The project is deployed on Vercel.
+
+---
+
+## 🧠 Design Decisions
+
+- Focused on real-world shopping experience  
+- Clean and minimal UI/UX  
+- Performance and responsiveness prioritized  
+- Structured to simulate production use cases  
+
+---
+
+## 🔮 Future Improvements
+
+- 💳 Full Stripe payment integration  
+- 🧾 Order history and tracking  
+- 👤 User profile management  
+- 📊 Admin dashboard for product management  
+- ⭐ Reviews and ratings system  
+
+---
+
+## 👨‍💻 Author
+
+**Dimitrije Bukejlovic**  
+Full Stack Engineer  
+
+---
+
+
