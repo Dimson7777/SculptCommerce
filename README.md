@@ -3,7 +3,7 @@
 A modern e-commerce application with product browsing, cart functionality, and a complete checkout flow.
 
 ## 🌐 Live Demo
-
+https://sculpt-commerce.vercel.app/
 
 ---
 
